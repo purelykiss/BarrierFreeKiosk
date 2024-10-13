@@ -6,6 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/1_Scenes/SampleScene.unity
+    path: Assets/1_Scenes/0_MainScene/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/1_Scenes/1_IntroPage/IntroPage.unity
+    guid: 09be24c578c1d194b9874d817ef85936
+  - enabled: 1
+    path: Assets/1_Scenes/2_MenuPage/MenuPage.unity
+    guid: 7f07aee53c8c5dc41b2fef0a34bbad9c
+  - enabled: 1
+    path: Assets/1_Scenes/6_ChargePage/ChargePage.unity
+    guid: cf1c080d0bcfa2c428d12700b2c314a5
+  - enabled: 1
+    path: Assets/1_Scenes/4_CheckPage/CheckPage.unity
+    guid: 4b912640d1a8fb04aa05f68bba208134
+  - enabled: 1
+    path: Assets/1_Scenes/3_DetailOrderPage/DetailOrderPage.unity
+    guid: 45226a789b100944ca490b20b75d21ed
+  - enabled: 1
+    path: Assets/1_Scenes/7_PaySuccessPage/PaySuccessPage.unity
+    guid: bd7ee489b0c62f44d849340268d141e2
+  - enabled: 1
+    path: Assets/1_Scenes/5_PlacePage/PlacePage.unity
+    guid: f605afa26ef01344bac75ab06c58b041
+  - enabled: 1
+    path: Assets/1_Scenes/8_TicketPage/TicketPage.unity
+    guid: e359cc0f28ffb2f419dc798c3274dae3
+  - enabled: 1
+    path: Assets/1_Scenes/9_VideoPage/VideoPage.unity
+    guid: 02a9b6f739afa6948954776f30998768
   m_configObjects: {}

@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class GoodsBtn : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnButtonClick()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log("Button Clicked");
     }
 }

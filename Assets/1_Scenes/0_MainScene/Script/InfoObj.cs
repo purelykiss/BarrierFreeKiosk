@@ -12,7 +12,7 @@ public class InfoObj : MonoBehaviour
     {
         DontDestroyOnLoad(this);
         if (instance == null)
-            instance = new InfoObj();
+            instance = this;
         else
             Destroy(this);
     }

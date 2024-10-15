@@ -5,16 +5,11 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class BackBtn : MonoBehaviour, ISelectHandler
+public class BackBtn : MonoBehaviour
 {
-    public void OnSelect(BaseEventData eventData)
-    {
-        OnButtonPress();
-        Debug.Log("invoke");
-    }
-
     public void OnButtonPress()
     {
+        Debug.Log("홈작동");
         //InfoObj.instance에서 현제 장바구니 정보 삭제
         SceneManager.LoadScene("IntroPage");
     }
